@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductListViewController">
+            <connections>
+                <outlet property="tableView" destination="TGN-kP-Kpk" id="VTK-1Y-IL2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="G3B-Wr-aio"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7o-dK-lca">
+                    <rect key="frame" x="0.0" y="0.0" width="584" height="44"/>
+                    <color key="backgroundColor" red="0.19215686274509802" green="0.23921568627450979" blue="0.6470588235294118" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TGN-kP-Kpk">
+                    <rect key="frame" x="4" y="44" width="592" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cN4-k6-QAI"/>
+                        <outlet property="delegate" destination="-1" id="PLY-xr-N18"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TGN-kP-Kpk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="0Qc-D1-eC6"/>
+                <constraint firstItem="TGN-kP-Kpk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="Or9-mM-fgA"/>
+                <constraint firstAttribute="bottom" secondItem="TGN-kP-Kpk" secondAttribute="bottom" id="deR-WH-qXY"/>
+                <constraint firstAttribute="trailing" secondItem="TGN-kP-Kpk" secondAttribute="trailing" constant="4" id="oW2-4d-Ql3"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
