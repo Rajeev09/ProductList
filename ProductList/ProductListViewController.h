@@ -19,7 +19,7 @@ static NSString const *item_label = @"label";
 static NSString const *item_image = @"image";
 static NSString const *item_webUrl = @"web-url";
 
-@interface ProductListViewController : UIViewController
+@interface ProductListViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate>
 
-
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525BBF3D1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BBF3B1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.m */; };
+		525BBF3E1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BBF3C1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.xib */; };
+		525BBF421C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BBF401C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.m */; };
+		525BBF431C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BBF411C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.xib */; };
+		525BBF471C67EACB004ED8E9 /* ProductTemplate3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BBF451C67EACB004ED8E9 /* ProductTemplate3TableViewCell.m */; };
+		525BBF481C67EACB004ED8E9 /* ProductTemplate3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BBF461C67EACB004ED8E9 /* ProductTemplate3TableViewCell.xib */; };
+		525BBF511C67EC10004ED8E9 /* CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BBF4F1C67EC10004ED8E9 /* CVCell.m */; };
+		525BBF521C67EC10004ED8E9 /* CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BBF501C67EC10004ED8E9 /* CVCell.xib */; };
 		528C85851C65F2450099F2F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C85841C65F2450099F2F1 /* main.m */; };
 		528C85881C65F2450099F2F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C85871C65F2450099F2F1 /* AppDelegate.m */; };
 		528C85901C65F2450099F2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528C858F1C65F2450099F2F1 /* Assets.xcassets */; };
@@ -31,6 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		525BBF3A1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTemplate1TableViewCell.h; sourceTree = "<group>"; };
+		525BBF3B1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTemplate1TableViewCell.m; sourceTree = "<group>"; };
+		525BBF3C1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTemplate1TableViewCell.xib; sourceTree = "<group>"; };
+		525BBF3F1C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTemplate2TableViewCell.h; sourceTree = "<group>"; };
+		525BBF401C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTemplate2TableViewCell.m; sourceTree = "<group>"; };
+		525BBF411C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTemplate2TableViewCell.xib; sourceTree = "<group>"; };
+		525BBF441C67EACB004ED8E9 /* ProductTemplate3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTemplate3TableViewCell.h; sourceTree = "<group>"; };
+		525BBF451C67EACB004ED8E9 /* ProductTemplate3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTemplate3TableViewCell.m; sourceTree = "<group>"; };
+		525BBF461C67EACB004ED8E9 /* ProductTemplate3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTemplate3TableViewCell.xib; sourceTree = "<group>"; };
+		525BBF4E1C67EC10004ED8E9 /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCell.h; sourceTree = "<group>"; };
+		525BBF4F1C67EC10004ED8E9 /* CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCell.m; sourceTree = "<group>"; };
+		525BBF501C67EC10004ED8E9 /* CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVCell.xib; sourceTree = "<group>"; };
 		528C85801C65F2450099F2F1 /* ProductList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528C85841C65F2450099F2F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		528C85861C65F2450099F2F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +90,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525BBF391C67EA45004ED8E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				525BBF3A1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.h */,
+				525BBF3B1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.m */,
+				525BBF3C1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.xib */,
+				525BBF3F1C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.h */,
+				525BBF401C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.m */,
+				525BBF411C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.xib */,
+				525BBF441C67EACB004ED8E9 /* ProductTemplate3TableViewCell.h */,
+				525BBF451C67EACB004ED8E9 /* ProductTemplate3TableViewCell.m */,
+				525BBF461C67EACB004ED8E9 /* ProductTemplate3TableViewCell.xib */,
+				525BBF4E1C67EC10004ED8E9 /* CVCell.h */,
+				525BBF4F1C67EC10004ED8E9 /* CVCell.m */,
+				525BBF501C67EC10004ED8E9 /* CVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		528C85771C65F2450099F2F1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +130,7 @@
 		528C85821C65F2450099F2F1 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
+				525BBF391C67EA45004ED8E9 /* Cells */,
 				528C85B11C65F47C0099F2F1 /* Model */,
 				528C85AD1C65F4530099F2F1 /* f_one.json */,
 				528C85AE1C65F4530099F2F1 /* f_two.json */,
@@ -216,10 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				528C85B01C65F4530099F2F1 /* f_two.json in Resources */,
+				525BBF431C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.xib in Resources */,
 				528C85931C65F2450099F2F1 /* LaunchScreen.storyboard in Resources */,
+				525BBF521C67EC10004ED8E9 /* CVCell.xib in Resources */,
 				528C85AF1C65F4530099F2F1 /* f_one.json in Resources */,
 				528C85AC1C65F37A0099F2F1 /* ProductListViewController.xib in Resources */,
 				528C85901C65F2450099F2F1 /* Assets.xcassets in Resources */,
+				525BBF3E1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.xib in Resources */,
+				525BBF481C67EACB004ED8E9 /* ProductTemplate3TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525BBF421C67EAB7004ED8E9 /* ProductTemplate2TableViewCell.m in Sources */,
 				528C85AB1C65F37A0099F2F1 /* ProductListViewController.m in Sources */,
+				525BBF3D1C67EA9F004ED8E9 /* ProductTemplate1TableViewCell.m in Sources */,
 				528C85881C65F2450099F2F1 /* AppDelegate.m in Sources */,
 				528C85B71C65F4E30099F2F1 /* ProductModel.m in Sources */,
+				525BBF511C67EC10004ED8E9 /* CVCell.m in Sources */,
+				525BBF471C67EACB004ED8E9 /* ProductTemplate3TableViewCell.m in Sources */,
 				528C85B41C65F4CD0099F2F1 /* ItemModel.m in Sources */,
 				528C85851C65F2450099F2F1 /* main.m in Sources */,
 			);
@@ -363,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ProductList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -374,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ProductList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -420,6 +470,7 @@
 				528C85A41C65F2460099F2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528C85A51C65F2460099F2F1 /* Build configuration list for PBXNativeTarget "ProductListTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +479,7 @@
 				528C85A71C65F2460099F2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
