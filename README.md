@@ -14,11 +14,11 @@ Each different templates are shown using different tableview cells
   It is implemented using a scrollView and pageControlview as a subview of tableviewcell.
   
 ///// 
-Caching:
+a)Caching:
    Caching is done using a dictionary by storing images using urls as their keys
-Non-Blocking UI:
+b)Non-Blocking UI:
    Images are downloaded asynchronously in background and after downloding imageview is updated accordingly.This prevents UI from blocking.
-AutoLayout:
+c)AutoLayout:
    AutoLayout is used so that it can work across multiplescreens.
 
  
